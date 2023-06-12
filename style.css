@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.text a{
+    
+   border-radius: 10px;
+}
+
+
+
+.pro{
+    background: rgb( 67, 139, 140);
+}
+h5{
+    color: red;
+}
+.img-fluid{
+    width: 100%;
+}
+.image{
+    width: 100%;
+    background-image: url();
+    box-shadow: 10px;
+}
+.diplom{
+    background-image: linear-gradient(to right,#e62f0f,#eb3f28);  
+}
+.diplome{
+    background-image: linear-gradient(to right,#e62f0f,#eb3f28);
+    padding-bottom: 5%;
+}
+.weve{
+    width: 100%;
+}
+.couleur{
+    background: red;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+.program{
+    width: 10%;
+    
+}
+
+.card-img{
+    width: 30%;
+    background-image: brown;
+    
+}
+ .box{
+    border-radius: 10px;
+ }
+
+.text{
+    text-align: center;
+}
+.text button {
+    color: #fff;
+}
+.image-fluid{
+    padding: 30 10px;
+    width: 100%;
+    height:8em;
+}
+.img-fluid{
+    background: red;
+    width: 100%;
+    height: auto;
+   border-radius: 0px;
+}
+.bg{
+    background: brown;
+}
+.cl{
+    display: flex;
+    
+    text-align: center;
+    flex-wrap: wrap; 
+    /* width: 100%; */
+    justify-content: space-around;
+    padding: 10px 0;
+    font-size: 14px;
+}
+ img{
+    border-image: url('assets/img/cooper.jpg');
+}
+.flo p{
+    width: 120px;
+    height: 120px;
+    color: gray;
+    font-size: 100px;
+    font-weight: 500;
+    border-radius: 50%;
+}
+
+.footer{
+    text-align: end;
+    padding: 30px 5px;
+    font-size: 10px;
+}
+
+
+@media (max-width: 767px){
+    .vetical{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 5%;
+    }
+
+    .cl{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .footer{
+        text-align: center;
+        font-size: 15px;
+    }
+}
