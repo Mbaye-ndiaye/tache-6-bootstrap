@@ -8,7 +8,10 @@
     
    border-radius: 10px;
 }
-
+.wag img{
+    /* border: 1px solid black; */
+    max-width: 100%;
+}
 
 
 .pro{
@@ -33,7 +36,7 @@ h5{
     padding-bottom: 5%;
 }
 .weve{
-    width: 100%;
+    max-width: 100%;
 }
 .couleur{
     background: red;
@@ -45,6 +48,7 @@ h5{
     width: 10%;
     
 }
+
 
 .card-img{
     width: 30%;
@@ -109,6 +113,12 @@ h5{
         display: flex;
         flex-direction: column-reverse;
         padding-top: 5%;
+    }
+    .weve{
+        width: 100%;
+    }
+    .para{
+        font-size: 15px;
     }
 
     .cl{
